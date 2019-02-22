@@ -1,4 +1,4 @@
-This is a piece of React/Redux project's code which has been developed by us. 
+This is a piece of React/Redux project's code which has been developed by me. 
 It describes logic for one of containers that has been used in our application.
 Please let us know if you need some other examples or questions about this one.
 
