@@ -8,7 +8,6 @@ import {
     vehicleDetailsFetchSuccess,
     vehicleDetailsFetchFail,
     updateVdpStatistic,
-    // vehicleStatisticFetch,
 } from '../reducer';
 
 const serialize = (responseData) => {
