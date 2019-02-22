@@ -28,8 +28,6 @@ function* fetch(action) {
         yield put(vehicleDetailsFetchSuccess(data));
         yield call(searchApi.statisticsCountVDP, vehicleId);
         yield put(updateVdpStatistic());
-        // TODO: Uncomment after prod updating
-        // yield put(vehicleStatisticFetch(vehicleId));
 
     } catch (error) {
         const isUndefinedPage = error.response && error.response.status === 404;
